@@ -15,8 +15,6 @@ if len(pwd) > 12 :
 else:
     print("Le mot de passe doit contenir au moins 12 caractères.")
 
-
-
 import random
 import string
 import re
