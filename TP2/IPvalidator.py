@@ -22,7 +22,7 @@ ips1 = [
     "0.0.0.0"
 ]
 # Lecture des IPs depuis le fichier "inputs.txt"
-with open("inputs.txt", "r") as f:
+with open("TP2\inputs.txt", "r") as f:
     ips = [line.strip() for line in f if line.strip()]
 
 for ip in ips:
