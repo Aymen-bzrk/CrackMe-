@@ -54,3 +54,18 @@ Assure-toi d’avoir installé matplotlib :
 pip install matplotlib
 
 ---
+## TP4 Scanner de ports TCP PortScan.py
+Fonction:
+- Scan d'une plage de ports (ex: 20 à 1000)
+- Scanner multithreadé (par défaut 50 threads)
+- Timeout configurable
+- Affichage optionnel des ports fermés (`--verbose`)
+- Export des résultats au format `.txt` ou `.csv` (`--output`)
+- Vérification de validité d'adresse IP
+
+## ▶️ Exemple d’utilisation
+
+```bash
+python PortScan.py --ip 192.168.1.1 --start-port 20 --end-port 100 --verbose --output resultat.csv
+
+---
