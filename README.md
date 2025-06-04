@@ -1,4 +1,4 @@
-TPs Python – Aforp - BENSEGHIR Nadjib M2 IRS P37
+TPs Python – Aforp - Bouzerkoune Aymen M2 IRS P37
 Tps Python pour le cours de Python a l'Aforp pour la semaine du 02/06/2025 - 06/06/2025
 
 Tp 1 Crackme.py
