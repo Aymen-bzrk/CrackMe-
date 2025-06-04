@@ -10,14 +10,12 @@ Le mot est choisi au hasard dans un fichier texte.
 - Option "triche" pour afficher le mot  
 - Historique des tentatives  
 
-**Fichier requis :** `mots_de_passe.txt` (un mot par ligne)
-
 **Exercice a part :** checkpassword.py compteur des Maj, Min, Num et charcteres spec dans un password
 
 
 ---
 
-## Tp 2 IPcheckRE.py
+## Tp 2 IPValidator.py
 
 Réalisation d’un petit TP Regex pour vérifier si une adresse IP est correcte (vérification de base via expression régulière).
 
