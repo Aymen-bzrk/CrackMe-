@@ -72,7 +72,7 @@ python PortScan.py --ip 192.168.1.1 --start-port 20 --end-port 100 --verbose --o
 
 ## TP5 (Bonus)  Apache Logs – Analyse d’erreurs 404
 
-Ce TP analyse un fichier `apache.log`  pour :
+Ce TP analyse un fichier `access.log`  pour :
 
 - Extraire les requêtes en erreur 404
 - Identifier les IPs responsables
@@ -86,16 +86,10 @@ pip install pandas matplotlib
 ```
 
 ### Utilisation
-
-Génère un fichier de logs :
-
-```bash
-python generer_apache_log.py
-```
 Lance l’analyse :
 
 ```bash
-python 404ErrorDetecter.py apache.log
+python Apache(Analyse erreurs 404).py access.log
 ```
 
 ### Discusion
