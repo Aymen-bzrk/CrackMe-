@@ -66,7 +66,7 @@ Fonction:
 ## ▶️ Exemple d’utilisation
 
 ```bash
-python PortScan.py --ip 192.168.1.1 --start-port 20 --end-port 100 --verbose --output resultat.csv
+python PortScan.py --ip 192.168.1.1 --start-port 20 --end-port 100 --verbose --output outputports.txt
 
 ---
 ## TP5 (Bonus)  Apache Logs – Analyse d’erreurs 404
